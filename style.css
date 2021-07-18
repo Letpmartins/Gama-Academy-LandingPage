@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(6, 6, 6);
+}
+
+header {
+    background-color:rgb(182, 6, 29);
+    color: rgb(204, 218, 216);
+    text-align: center;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    margin-top: auto;
+    text-align: center;
+    padding: 1%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    width: 50vw;
+    height: auto;
+    padding: auto;
+    margin: 5%;
+}
+
+.form {
+    display: block;
+    color: rgb(204, 218, 216);
+    font-size: 24px;
+    margin: auto;
+    padding: 10%;
+}
+
+input {
+    width: 25vw;
+    line-height: 24px;
+    background-color: rgb(204, 218, 216);
+    margin: 15px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(182, 6, 29);
+    border: none;
+    border-radius: 15px;
+    color: rgb(204, 218, 216);
+}
